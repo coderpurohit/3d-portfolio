@@ -49,14 +49,14 @@ const Banner = ({ hide, setHide }: BannerProps) => {
             <span className="sr-only">Light bulb</span>
           </span>
           <span>
-            Did you enjoy this portfolio? Take a look at my{" "}
+            Explore more of my work on my{" "}
             <Link
-              to="https://www.sanidhyy.name"
+              to="https://github.com/coderpurohit"
               target="_blank"
               rel="noreferrer noopener"
               className="inline font-medium text-blue-600 underline-offset-2 decoration-600 hover:opacity-75"
             >
-              new portfolio
+              GitHub profile
             </Link>
             .
           </span>

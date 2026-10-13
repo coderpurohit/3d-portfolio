@@ -37,15 +37,15 @@
     "@types/react-vertical-timeline-component": "^3.3.6",
     "@vitejs/plugin-react": "^6.1.2",
     "tailwindcss": "^4.3.3",
-    "typescript": "^7.0.2",
+    "typescript": "^5.6.3",
     "vite": "^8.3.2"
   },
   "author": {
-    "name": "Sanidhya Kumar Verma",
-    "email": "sanidhyyy@gmail.com",
-    "url": "https://github.com/sanidhyy"
+    "name": "Bharat Purohit",
+    "email": "bharatpurohit095@gmail.com",
+    "url": "https://github.com/coderpurohit"
   },
-  "description": "Modern 3D Portfolio using React, Three.js and Typescript",
+  "description": "3D portfolio for Bharat Purohit featuring AI, data science, and software development work.",
   "keywords": [
     "reactjs",
     "react",
@@ -63,21 +63,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sanidhyy/3d-portfolio.git"
+    "url": "https://github.com/coderpurohit"
   },
-  "homepage": "https://github.com/sanidhyy/3d-portfolio#readme",
+  "homepage": "https://github.com/coderpurohit",
   "bugs": {
-    "url": "https://github.com/sanidhyy/3d-portfolio/issues",
-    "email": "sanidhyyy@gmail.com"
+    "url": "https://github.com/coderpurohit",
+    "email": "bharatpurohit095@gmail.com"
   },
-  "funding": [
-    {
-      "type": "patreon",
-      "url": "https://www.patreon.com/sanidhy"
-    },
-    {
-      "type": "Buy me a coffee",
-      "url": "https://www.buymeacoffee.com/sanidhy"
-    }
-  ]
+  "funding": []
 }

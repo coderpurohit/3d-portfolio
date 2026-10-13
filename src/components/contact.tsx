@@ -246,6 +246,33 @@ const ContactForm = () => {
 
 export const Contact = () => {
   const siteKey = import.meta.env.VITE_RECAPTCHA_SITE_KEY;
+  const contactLinks = [
+    {
+      label: "Email",
+      value: "bharatpurohit095@gmail.com",
+      href: "mailto:bharatpurohit095@gmail.com",
+    },
+    {
+      label: "Phone",
+      value: "+91 7666478505",
+      href: "tel:+917666478505",
+    },
+    {
+      label: "LinkedIn",
+      value: "linkedin.com/in/bharat-purohit-13986427b",
+      href: "https://www.linkedin.com/in/bharat-purohit-13986427b/",
+    },
+    {
+      label: "GitHub",
+      value: "github.com/coderpurohit",
+      href: "https://github.com/coderpurohit",
+    },
+    {
+      label: "LeetCode",
+      value: "leetcode.com/u/codebp/",
+      href: "https://leetcode.com/u/codebp/",
+    },
+  ];
 
   return (
     <SectionWrapper idName="contact">
@@ -257,13 +284,32 @@ export const Contact = () => {
           <p className={styles.sectionSubText}>Get in touch</p>
           <h3 className={styles.sectionHeadText}>Contact.</h3>
 
+          <div className="mt-8 grid gap-3">
+            {contactLinks.map((link) => (
+              <a
+                key={link.label}
+                href={link.href}
+                target={link.href.startsWith("http") ? "_blank" : undefined}
+                rel={link.href.startsWith("http") ? "noreferrer noopener" : undefined}
+                className="rounded-xl border border-white/10 bg-tertiary/70 p-4 text-secondary transition hover:border-[#915eff]/70 hover:text-white"
+              >
+                <span className="block text-xs uppercase tracking-[0.2em] text-[#915eff]">
+                  {link.label}
+                </span>
+                <span className="mt-1 block text-base text-white/90">
+                  {link.value}
+                </span>
+              </a>
+            ))}
+          </div>
+
           {siteKey ? (
             <GoogleReCaptchaProvider reCaptchaKey={siteKey}>
               <ContactForm />
             </GoogleReCaptchaProvider>
           ) : (
-            <p className="mt-12 text-secondary">
-              Contact form is currently unavailable.
+            <p className="mt-8 text-secondary text-sm">
+              Add the required reCAPTCHA site key and Netlify environment variables to enable the contact form.
             </p>
           )}
         </motion.div>

@@ -4,13 +4,10 @@
 
 ![Modern 3D Portfolio using React, Three.js and Typescript](/.github/images/img_main.png "Modern 3D Portfolio using React, Three.js and Typescript")
 
-[![Ask Me Anything!](https://flat.badgen.net/static/Ask%20me/anything?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy "Ask Me Anything!")
-[![GitHub license](https://flat.badgen.net/github/license/sanidhyy/3d-portfolio?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/3d-portfolio/blob/main/LICENSE "GitHub license")
-[![Maintenance](https://flat.badgen.net/static/Maintained/yes?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/3d-portfolio/commits/main "Maintenance")
-[![GitHub branches](https://flat.badgen.net/github/branches/sanidhyy/3d-portfolio?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/3d-portfolio/branches "GitHub branches")
-[![Github commits](https://flat.badgen.net/github/commits/sanidhyy/3d-portfolio?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/3d-portfolio/commits "Github commits")
-[![GitHub issues](https://flat.badgen.net/github/issues/sanidhyy/3d-portfolio?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/3d-portfolio/issues "GitHub issues")
-[![GitHub pull requests](https://flat.badgen.net/github/prs/sanidhyy/3d-portfolio?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/3d-portfolio/pulls "GitHub pull requests")
+[![Ask Me Anything!](https://flat.badgen.net/static/Ask%20me/anything?icon=github&color=black&scale=1.01)](https://github.com/coderpurohit "Ask Me Anything!")
+[![GitHub profile](https://flat.badgen.net/github/followers/coderpurohit?icon=github&color=black&scale=1.01)](https://github.com/coderpurohit "GitHub profile")
+[![Maintenance](https://flat.badgen.net/static/Maintained/yes?icon=github&color=black&scale=1.01)](https://github.com/coderpurohit "Maintenance")
+[![GitHub status](https://flat.badgen.net/github/followers/coderpurohit?icon=github&color=black&scale=1.01)](https://github.com/coderpurohit "GitHub status")
 [![Netlify status](https://api.netlify.com/api/v1/badges/5c77ba92-e2f5-468e-99f1-3543906a90cb/deploy-status)](https://shubam.netlify.app/ "Netlify status")
 
 <!-- Table of Contents -->
@@ -150,9 +147,9 @@ RECAPTCHA_MIN_SCORE="0.5"
 
 If you run into issues during installation or setup:
 
-- **GitHub Discussions** — [Open a Q&A discussion](https://github.com/sanidhyy/3d-portfolio/discussions/new?category=q-a) for setup and troubleshooting help.
-- **Email** — [sanidhyyy@gmail.com](mailto:sanidhyyy@gmail.com)
-- **Discord** — `@sanidhyy`
+- **GitHub Discussions** — [Open a Q&A discussion](https://github.com/coderpurohit) for setup and troubleshooting help.
+- **Email** — [bharatpurohit095@gmail.com](mailto:bharatpurohit095@gmail.com)
+- **GitHub** — [@coderpurohit](https://github.com/coderpurohit)
 
 ## :camera: Screenshots:
 

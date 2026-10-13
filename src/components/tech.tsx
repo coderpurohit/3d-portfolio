@@ -6,8 +6,16 @@ import { useLimitedWebGL } from "../hooks/use-limited-webgl";
 
 type TechBallProps = {
   name: string;
-  icon: string;
+  icon?: string;
 };
+
+const TechPill = ({ name }: { name: string }) => (
+  <div className="flex h-28 w-28 items-center justify-center">
+    <div className="flex h-20 w-20 items-center justify-center rounded-full border border-white/15 bg-[#1d1836]/80 px-3 text-center text-[11px] font-bold text-white shadow-lg shadow-primary/30">
+      {name}
+    </div>
+  </div>
+);
 
 const TechBall = ({ name, icon }: TechBallProps) => (
   <div className="w-28 h-28 flex items-center justify-center">
@@ -43,16 +51,28 @@ export const Tech = () => {
 
   return (
     <SectionWrapper>
+      <div className="mb-12 text-center">
+        <p className="text-secondary text-[14px] uppercase tracking-[20px]">
+          Skills
+        </p>
+        <h2 className="mt-4 text-white text-4xl font-black md:text-5xl">
+          Core Skills.
+        </h2>
+      </div>
       <div
         ref={ref}
-        className="flex flex-row flex-wrap justify-center gap-10"
+        className="flex flex-row flex-wrap justify-center gap-6"
       >
         {TECHNOLOGIES.map((technology) => (
           <div className="w-28 h-28" key={technology.name}>
-            {use3DBalls ? (
-              <BallCanvas icon={technology.icon} />
+            {technology.icon ? (
+              use3DBalls ? (
+                <BallCanvas icon={technology.icon} />
+              ) : (
+                <TechBall name={technology.name} icon={technology.icon} />
+              )
             ) : (
-              <TechBall name={technology.name} icon={technology.icon} />
+              <TechPill name={technology.name} />
             )}
           </div>
         ))}

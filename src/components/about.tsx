@@ -54,11 +54,12 @@ export const About = () => {
           variants={fadeIn(undefined, undefined, 0.1, 1)}
           className="empty-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          I'm a skilled website developer with experience in TypeScript and
-          Javascript, and expertise in frameworks like React, Node.js, and
-          Three.js. I'm a quick learner and collaborate closely with clients to
-          create efficient, scalable, and user-friendly solutions that solve
-          real-world problems. Let's work together to bring your ideas to life!
+          I&apos;m Bharat Purohit, a software developer passionate about AI,
+          data science, and automation. I&apos;m currently pursuing a B.E. in
+          Artificial Intelligence &amp; Data Science at D.Y. Patil College of
+          Engineering, Pune (2023–2027), with a CGPA of 7.85. I enjoy building
+          practical systems that combine strong engineering fundamentals with
+          real-world problem solving in web, AI, and automation workflows.
         </motion.p>
 
         {/* Service Card */}

@@ -121,7 +121,7 @@ export const Works = () => {
   }, []);
 
   return (
-    <SectionWrapper>
+    <SectionWrapper idName="projects">
       <>
         {/* Title */}
         <motion.div variants={textVariant()}>
@@ -135,11 +135,11 @@ export const Works = () => {
             variants={fadeIn(undefined, undefined, 0.1, 1)}
             className="mt-3 text-secondary text-[17px] max-w-3xl leading-7.5"
           >
-            Following projects showcases my skills and experience through
+            Following projects showcase my skills and experience through
             real-world examples of my work. Each project is briefly described
-            with links to code repositories and live demos in it. It reflects my
-            ability to solve complex problems, work with different technologies,
-            and manage projects effectively.
+            with links to relevant project work and implementation details. They
+            reflect my ability to solve complex problems, work with different
+            technologies, and build practical systems effectively.
           </motion.p>
         </div>
 
